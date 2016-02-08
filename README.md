@@ -75,7 +75,7 @@ Propositional Logic
   - Rules of Inference
 
 |  **Type**  |  **Rule of Inference**  |  **Tautology**  |
-| -------: | :--------------: | :--------- |
+| :-------: | :--------------: | :---------: |
 | Modus Ponens |  p, p → q ∴ q  |  (p ∧ (p → q)) → q  |
 | Modus Tollens |  ¬q, p → q ∴ ¬p |  (¬q ∧ (p → q)) → ¬p  |
 | Hypothetical Syllogism |  p → q, q → r ∴ p → r  |  ((p → q) ∧ (q → r)) → (p → r)  |
@@ -96,10 +96,22 @@ Propositional Logic
 
 
 #Week 4
-- Proof by Contraposition/Indirect Proof (¬q → ¬p)
+- Proof by Contraposition/Indirect Proof: (p → q ≡ ¬q → ¬p)
   - Steps:
     - Assume ¬q is true
     - Show that ¬p is also true from the previous assumption.
-- Vacuous Proof (¬p → (p → q))
+- Vacuous Proof: (¬p → (p → q))
+Premise:    ¬p
+Conclusion: p → q
+  - Show that p is false, because (p → q) must be true when p is false.
+- Trivial Proof: (q → (p → q))
+  - Show that q is true, then it follows that (p → q) must also be true.
+- Proof by Contradiction
   - Steps:
-    - 
+    - Assume that the premise is not true: ¬(premise) ≡ T
+    - Show that the assumption will end up in a contradiction.
+- Had several examples to better understand the usage of each methods of proof.
+- In proving, we must show every step and proof.
+- Even assumption should have a corresponding proof to be consider valid.
+- Proof by Equivalence
+ - Biconditional:  p ↔ q, we show that p → q and q → p 
