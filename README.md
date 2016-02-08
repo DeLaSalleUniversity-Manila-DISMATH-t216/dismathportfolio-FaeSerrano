@@ -33,6 +33,9 @@ Propositional Logic
 
 
 #Week 2
+- Ive learned that superman does not exist!
+
+![superman](http://cdn.meme.am/instances/400x/43343149.jpg)
 - I learned that instead of creating a truth table *(I must admit it can be tiresome especially with plenty of variables)* we can use logical equivalences instead.
   - Laws such as Associative, Distributive and Commutative are already familiar through algebra lessons.
   - Learned new laws such as De Morgan's law, absorption, domination and idempotent laws.
