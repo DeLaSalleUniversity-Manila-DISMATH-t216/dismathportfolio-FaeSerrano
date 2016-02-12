@@ -134,5 +134,4 @@ Cont of methods of proof:
     - show p(k+1) is true
   - QED (quod erat demonstrandum) - signals the end of proof
   - Example: Prove P(n) = 1 + 2 + 3 + … + n = n(n+1)/2
-  - 
   
