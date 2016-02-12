@@ -25,9 +25,9 @@ Propositional Logic
   - The contrapositive of the statement is also equivalent of the original statement
   
 | Propositional Logic |  |
-| :-------: | :-------: |
-| Inverse of p → q | ¬p → ¬q |
-| Converse of p → q | q → p |
+| :-------: | :-------:  |
+| Inverse of p → q        | ¬p → ¬q|
+| Converse of p → q       | q → p  |
 | Contrapositive of p → q | ¬q → ¬p|
 
 
@@ -35,18 +35,18 @@ Propositional Logic
 #Week 2
 - Ive learned that superman does not exist!
 
-![superman](http://cdn.meme.am/instances/400x/43343149.jpg)
+![Imgur](http://i.imgur.com/1e7bd3q.jpg?1)
 - I learned that instead of creating a truth table *(I must admit it can be tiresome especially with plenty of variables)* we can use logical equivalences instead.
   - Laws such as Associative, Distributive and Commutative are already familiar through algebra lessons.
   - Learned new laws such as De Morgan's law, absorption, domination and idempotent laws.
 
 |         Name        |                           Equivalence                          |
 |:-------------------:|:--------------------------------------------------------------:|
-|    Identity laws    |                      p ∧ T ≡ p<br>p v F ≡ p               |
-|   Domination laws   |                       p v T ≡ T<br>p ∧ F ≡ F               |
+|    Identity laws    |                      p ∧ T ≡ p<br>p v F ≡ p                    |
+|   Domination laws   |                       p v T ≡ T<br>p ∧ F ≡ F                   |
 |    Negation laws    |                     p v ¬p ≡ T<br>p ∧ ¬p ≡ F                   |
 | Double negation law |                            ¬(¬p) ≡ p                           |
-|   Idempotent laws   |                       p v p ≡ p<br>p ∧ p ≡ p               |
+|   Idempotent laws   |                       p v p ≡ p<br>p ∧ p ≡ p                   |
 |   Commutative laws  |                   p v q ≡ q v p<br>p ∧ q ≡ q ∧ p               |
 |   Associative laws  |       (p v q) v r ≡ p v (q v r)<br>(p ∧ q) ∧ r ≡ p ∧ (q ∧ r)   |
 |  Distributive laws  | p v (q ∧ r) ≡ (p v q) ∧ (p v r)<br>p ∧(q v r) ≡ (p ∧ q) v (p ∧ r) |
@@ -118,3 +118,21 @@ Conclusion: p → q
 - Even assumption should have a corresponding proof to be consider valid.
 - Proof by Equivalence
  - Biconditional:  p ↔ q, we show that p → q and q → p 
+
+
+
+#Week 5
+Cont of methods of proof:
+- Had several examples to better understand the usage of Direct and indirect proof.
+- Counterexample - uses an example to disprove a statement
+  - example: Every positive integer is the sum of the squares of two integers
+    - Disprove using counterexample: 3
+-Mathematical induction - treats the sequence of propositions as a domino
+  - Steps:
+    - *Basic step* show P(1) is true
+    - *Inductive step* Assume P(k) is true
+    - show p(k+1) is true
+  - QED (quod erat demonstrandum) - signals the end of proof
+  - Example: Prove P(n) = 1 + 2 + 3 + … + n = n(n+1)/2
+  - 
+  
