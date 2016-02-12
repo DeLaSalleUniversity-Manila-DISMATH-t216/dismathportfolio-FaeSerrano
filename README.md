@@ -124,6 +124,8 @@ Conclusion: p → q
 #Week 5
 Cont of methods of proof:
 - Had several examples to better understand the usage of Direct and indirect proof.
+  - If n is a positive integer, then n is odd if and only if n^2 is odd.
+  - For any natural number n, n is even if and only if n^2 is even.
 - Counterexample - uses an example to disprove a statement
   - example: Every positive integer is the sum of the squares of two integers
     - Disprove using counterexample: 3
