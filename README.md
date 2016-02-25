@@ -137,3 +137,53 @@ Cont of methods of proof:
   - QED (quod erat demonstrandum) - signals the end of proof
   - Example: Prove P(n) = 1 + 2 + 3 + … + n = n(n+1)/2
   
+
+
+#Week 6
+- SUMMATION - notation for sum of am, am+1, ..., an is ∑ai=m ai where i is the index of summation.
+  - Σ “sigma”
+- RECURSIVE/INDUCTIVE DEFINITION
+  - 1. Basis step: specify the value at zero
+  - 2. Recursive step: Find a rule for finding its value at an integer number from the values at smaller integers.
+  - example: f(0) = 3, f(n+1) = 2f(n) + 3
+- RECURSIVE ALGORITHM - solves a problem by reducing it to an instance with smaller input
+
+- PROGRAM CORRECTNES - to ensure that a program gives the correct output
+  - PROGRAM VERIFICATION - A program is said to be correct if it produces the correct output for every possible input.
+    - 1. Show that the correct answer is obtained if the program terminates.(Partial correctness)
+    - 2. Show that the program always terminates
+  - PARTIAL CORRECTNESS
+    - initial assertioN (p)- gives the properties that the input values must have.
+    - final assertion (q) - gives the properties that the output of the program should have, if the program did what was intended.
+- HOARE TRIPLE p{S}q
+  - S is said to be partially correct with respect to the initial assertion p and the final assertion q if whenever p is true for the input values of S and S terminates, then q is true for the output values of S
+
+- **RULES OF INFERENCE**
+ - *COMPOSITION RULE* </br>
+  p{S1}q </br>
+  q{S2}r </br>
+  ______________ </br>
+   ∴ p{S1;S2)r <br>
+  - *CONDITIONAL STATEMENTS* </br>
+  (p ∧ _condition_) {S} q </br>
+  (p ∧ _¬condition_) → q </br>
+  __________________________________________</br>
+    ∴ p {**if** _condition_ **then** _S_} q
+  - *IF-ELSE STATEMENT* </br>
+  (p ∧ _condition_) {S<sub>1</sub>} q </br>
+  (p ∧ _¬condition_) {S<sub>2</sub>} q </br>
+  _____________________________________ </br>
+    ∴ p {*if* _condition_ *then* _S<sub>1</sub>_ *else* _S<sub>2</sub>_} q
+
+- POWER SERIES
+  - 
+  
+
+
+#Week 7
+- Project 0.0:
+ - To be passed next week, March 2, 2016
+ - Individual
+ - 
+ 
+- SET THEORY
