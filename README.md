@@ -167,7 +167,7 @@ Cont of methods of proof:
   - *CONDITIONAL STATEMENTS* </br>
   (p ∧ _condition_) {S} q </br>
   (p ∧ _¬condition_) → q </br>
-  __________________________________________</br>
+  ________________________________________</br>
     ∴ p {**if** _condition_ **then** _S_} q
   - *IF-ELSE STATEMENT* </br>
   (p ∧ _condition_) {S<sub>1</sub>} q </br>
@@ -176,14 +176,19 @@ Cont of methods of proof:
     ∴ p {*if* _condition_ *then* _S<sub>1</sub>_ *else* _S<sub>2</sub>_} q
 
 - POWER SERIES
-  - 
-  
+  - ∑∞n = 0 anxn ;  where a0, a1, a2, ... is a given sequence of constants, and x is a real variable.
+  - Examples:   1 + r + r2 + r3 + ... = 1/(1-r)
 
 
 #Week 7
 - Project 0.0:
  - To be passed next week, March 2, 2016
  - Individual
- - 
  
 - SET THEORY
+  - A set is an unordered collection of distinct objects, which may be anything (including other sets).
+    - {f, a, e, n, i, c, l}
+  - Empty Set { } = ∅ means no elements 
+  - Set Builder Notation {x | some property x satisfies}
+  - 
+
