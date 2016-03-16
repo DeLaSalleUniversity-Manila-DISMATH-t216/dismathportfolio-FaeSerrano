@@ -188,7 +188,111 @@ Cont of methods of proof:
 - SET THEORY
   - A set is an unordered collection of distinct objects, which may be anything (including other sets).
     - {f, a, e, n, i, c, l}
-  - Empty Set { } = ∅ means no elements 
-  - Set Builder Notation {x | some property x satisfies}
+  - Empty Set { } = ∅ means no elements
+    - {∅} not an empty set
+  - Set Builder Notation {x | some property that x satisfies}
+  - Membership
+    - 1 ∈ {1, 2, 3, 4}
+<br></br>
+- **VENN DIAGRAM**
   - 
+- **SET IDENTITIES TABLE**
 
+|  **LAW**  |  **IDENTITY**  |
+| :------: | :-----------------------------: |
+|  Identity Laws  |  A ⋂ U ≡ A  <br>  A ⋃ ∅ ≡ A  |
+|  Domination Laws  |  A ⋃ U ≡ U  <br>  A ⋂ ∅ ≡ ∅  |
+|  Idempotent Laws  |  A ⋃ A ≡ A  <br>  A ⋂ A ≡ A  |
+|  Complementation Law  |  (A¯)‾ ≡ A  |
+|  Commutative Laws  |  A ⋃ B ≡ B ⋃ A  <br>  A ⋂ B ≡ B ⋂ A  |
+|  Associative Laws  |  A ⋃ (B ⋃ C) ≡ (A ⋃ B) ⋃ C  <br>  A ⋂ (B ⋂ C) ≡ (A ⋂ B) ⋂ C  |
+|  Distributive Laws  |  A ⋃ (B ⋂ C) ≡ (A ⋃ B) ⋂ (A ⋃ C) <br>  A ⋂ (B ⋃ C) ≡ (A ⋂ B) ⋃ (A ⋂ C)  |
+|  De Morgan's Laws  |  (A ⋂ B)‾ ≡ A‾ ⋃ B‾  <br>  (A ⋃ B)‾ ≡ A‾ ⋂ B‾  |
+|  Absorption Laws  |  A ⋃ (A ⋂ B) ≡ A  <br>  A ⋂ (A ⋃ B) ≡ A  |
+|  Complement Laws  |  A ⋃ A‾ ≡ U  <br>  A ⋂ A‾ ≡ ∅  |
+
+- SUBSETS ⊆
+  - A set S is a subset of a set T (denotes S ⊆ T) if all elements of S are also elements of T
+  - Example:  ℕ ⊆ ℤ (every natural number is an integer)
+- POWER SET P(S) = {T|T ⊆ S} - A set of all subsets.
+- CARDINALITY |S| - The number of element it contains
+    - Infinite Cardinalities - alaph-null (0,1,2,3,...)
+<br></br>
+- **FUNCTIONS**
+  - Let A and B be sets. A function f from A to B is an assignment of exactly one element of B to each element of A.
+  -  Functions are also called MAPPINGS or TRANSFORMATIONS.
+    - f: A to B </br>
+       A: domain </br>
+       B: co-domain
+    - Range - actually occuring values
+    - IMAGE
+      - If _f(a) = b_, _b- is the image of _A_.
+      - The range of _f_ is the set of all images of elements of _a_.
+
+- **TYPES OF FUNCTIONS**
+    - One - to - one Function (Injection)
+      - functions that never assign the same value to two different domain elements.
+    - Onto Function (Surjective)
+      - functions have equal range & co-domain.
+    - One - to - one Correspondence (Bijection)
+     - function is both one - to - one and onto.
+
+
+
+# Week 8:
+
+- ALGORITHMS - A finite set of precise instructions for performing a computation or for solving a problem.
+    - *Properties of Algorithms*
+      - INPUT - has input values from a specified set 
+      - OUTPUT - solution to the problem 
+      - DEFINITENESS - defined precisely 
+      - CORRECTNESS - produce the correct output values 
+      - FINITENESS - produce the desired output 
+      - EFFECTIVENESS - perform exactly and in a finite amount of time 
+      - GENERALITY - applicable for all problems of the desired form
+- PSEUDOCODE
+    - high - level desciption of an algorithm that uses the structural conventions of a programming language 
+    - intended for human reading
+    - Preconditions - describe valid input
+    - Postconditions - conditions that the output should satisfy
+- Algorithm example: Finding the Maximum {5,4,1,8,3}
+  - Input: ({a1, a2, a3,..,an} ∈ , Z)
+  - Output: largest 8
+  - Pseudocode
+    1. max = a1;
+    2. for i: 2 to n {
+    3.   if(max < ai)
+    4.       max = ai;}
+
+# Week 9:
+
+- For this week, we discussed the types of algorithm procedures that we can use when writing a pseudocode
+
+- SEARCHING ALGORITHMS - Problem of locating an algorithm in an ordered list
+    - Linear Search -  finding a particular value in a list that checks each element in sequence until the desired element is found
+      - input: x
+      - ouput: location, i; loc = i if found, loc = -1 if not found
+    - Binary Search - comparing the middle values of a list then repeated until the desired output is found.
+
+- SORTING ALGORITHMS - Problem of assorting elements into increasing order
+    - Bubble Sort - compares the first two elements then interchanging them if they are in the incorrect order.
+    - Insertion Sort - compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
+
+- GREEDY ALGORITHMS - Algorithms that make what seems to be the "best" choice at each step.
+
+- We also started on the *Growth of Functions* (Big-O Notation)
+___
+
+# Week 10:
+
+Continuation:
+
+- Big-O Notation
+    - Let f and g be functions from R-R; _f(x)_ is _O(g(x))_ if there are constants C and k such that:
+        |f(x)| ≤ C|g(x)| 
+    whenever x > k.
+
+- Big-Omega and Big-Theta Notation
+    - Big-O Notation does not provide a lowerbound for the size of f(x). 
+        - Big-Omega (Big-Ω) - lower bound
+        - Big-Theta (Big-Θ) - both upper and lower bound
