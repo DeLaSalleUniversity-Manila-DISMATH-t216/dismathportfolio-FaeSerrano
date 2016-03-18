@@ -262,6 +262,7 @@ Cont of methods of proof:
   - Input: ({a1, a2, a3,..,an} ∈ , Z)
   - Output: largest 8
   - Pseudocode
+
 > max = a1; </br>
 > for i: 2 to n { </br>
 >   if(max < ai) </br>
@@ -269,22 +270,30 @@ Cont of methods of proof:
 
 # Week 9:
 
-- For this week, we discussed the types of algorithm procedures that we can use when writing a pseudocode
+- Discussed the types of algorithm procedures that we can use when writing a pseudocode
 
 - SEARCHING ALGORITHMS - Problem of locating an algorithm in an ordered list
     - Linear Search -  finding a particular value in a list that checks each element in sequence until the desired element is found
       - input: x
       - ouput: location, i; loc = i if found, loc = -1 if not found
+      
+      > i=0 </br>
+      > while(i<n and x!=a1) </br>
+      >   i=i+1 </br>
+      > if i<n then loc = i </br>
+      > else loc = -1 </br>
+
     - Binary Search - comparing the middle values of a list then repeated until the desired output is found.
 
 - SORTING ALGORITHMS - Problem of assorting elements into increasing order
     - Bubble Sort - compares the first two elements then interchanging them if they are in the incorrect order.
     - Insertion Sort - compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
 
-- GREEDY ALGORITHMS - Algorithms that make what seems to be the "best" choice at each step.
+- GREEDY ALGORITHMS - Algorithms that make what seems to be the "best" choice at each step. Selects the best choice at each step, instead of considering all sequences of steps that may lead to optimal solution
+  - Greedy Change-Making algorithm
 
-- We also started on the *Growth of Functions* (Big-O Notation)
-___
+- Also started on the *Growth of Functions* often described using Big-O Notation
+
 
 # Week 10:
 
@@ -294,8 +303,17 @@ Continuation:
     - Let f and g be functions from R-R; _f(x)_ is _O(g(x))_ if there are constants C and k such that:
         |f(x)| ≤ C|g(x)| 
     whenever x > k.
+    - Example: f(x)=x^2 + 2x + 1; O(x^2); k=1, C=4
+
+![Image](http://images.slideplayer.com/9/2599951/slides/slide_14.jpg)
 
 - Big-Omega and Big-Theta Notation
     - Big-O Notation does not provide a lowerbound for the size of f(x). 
         - Big-Omega (Big-Ω) - lower bound
         - Big-Theta (Big-Θ) - both upper and lower bound
+
+- Algorithm Time Complexity - can be expressed in terms of the number of operations used by the algorithm when the input has a particular size.
+- Division and Modulo Operator
+  - let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r
+  - Q = a div d
+  - r = a mod d
