@@ -263,10 +263,10 @@ Cont of methods of proof:
   - Output: largest 8
   - Pseudocode
 
-> max = a1; </br>
-> for i: 2 to n { </br>
->   if(max < ai) </br>
->       max = ai;} </br>
+    > max = a1; </br>
+    > for i: 2 to n { </br>
+    >   if(max < ai) </br>
+    >       max = ai} </br>
 
 # Week 9:
 
@@ -278,9 +278,9 @@ Cont of methods of proof:
       - ouput: location, i; loc = i if found, loc = -1 if not found
       
       > i=0 </br>
-      > while(i<n and x!=a1) </br>
+      > while(i < n and x!=a1) </br>
       >   i=i+1 </br>
-      > if i<n then loc = i </br>
+      > if i < n then loc = i </br>
       > else loc = -1 </br>
 
     - Binary Search - comparing the middle values of a list then repeated until the desired output is found.
