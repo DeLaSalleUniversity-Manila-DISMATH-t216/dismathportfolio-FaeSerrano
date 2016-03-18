@@ -195,7 +195,10 @@ Cont of methods of proof:
     - 1 ∈ {1, 2, 3, 4}
 <br></br>
 - **VENN DIAGRAM**
-  - 
+
+![Image](VennDiagram.png)
+
+
 - **SET IDENTITIES TABLE**
 
 |  **LAW**  |  **IDENTITY**  |
@@ -259,10 +262,10 @@ Cont of methods of proof:
   - Input: ({a1, a2, a3,..,an} ∈ , Z)
   - Output: largest 8
   - Pseudocode
-    1. max = a1;
-    2. for i: 2 to n {
-    3.   if(max < ai)
-    4.       max = ai;}
+> max = a1; </br>
+> for i: 2 to n { </br>
+>   if(max < ai) </br>
+>       max = ai;} </br>
 
 # Week 9:
 
@@ -294,5 +297,5 @@ Continuation:
 
 - Big-Omega and Big-Theta Notation
     - Big-O Notation does not provide a lowerbound for the size of f(x). 
-        - Big-Omega (Big-Ω) - lower bound
+        - Big-Omega (Big-Ω) - lower bound
         - Big-Theta (Big-Θ) - both upper and lower bound
