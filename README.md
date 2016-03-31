@@ -317,3 +317,42 @@ Continuation:
   - let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r
   - Q = a div d
   - r = a mod d
+
+
+# Week 11
+No Class (Holy Week)
+
+
+# Week 2
+- **GRAPH THEORY**
+- Graph - are discrete structures consisting of vertices and edges that connect these vertices.
+- A graph G = (V,E) consists of V, a nonempty set of _vertices (or nodes)_ and E, a set of edges. Each edge has either one or two vertices associated with it, called its _endpoints_. An edge is said to _connect_ its endpoints.
+- Isolated - vertex with 0 degree
+- Pendant - vertex with one degree
+
+- Hand shaking theory: 2e = ∑deg(v)
+
+- Path - sequence of edges travelling from vertex to vertex along the edges
+- Euler Circuit - passess through every edge and goes back to starting point
+  - All vertex has a degree of 2
+- Euler Path - simple path containing every edge of the graph
+  - Exactly 2 vertex has an odd degree
+- Hamilton Path - passes through every vertex
+- Hamilton Circuit - passes through every vertex then goes back to the starting point
+- Matrices of Graphs - 1 for adjacent; 0 for non-adjacent
+- Incidence of Matrices - Matric between vertices and edges
+- Isomorphism of Graphs - "rubberband"
+  - same connection, equal nodes and vertices 
+
+- **PLANAR GRAPH**
+- no edges cross in a graph
+- Euler's Formula: r = e - v + 2
+  - r - regions
+  - e - edges
+  - v - vertices
+- Euler's Characteristic: ℵ = r - |e| + |v| = 2
+
+- **HOMEOMORPHIC GRAPHS**
+- can be obtained from the same graph by a sequence of elementary subdivisions
+- Elementary Subdivision - everything is planar graph
+- Kuratowski's Theorem - nonplanar if and only if it contains a subgraph homeophobic to K3,3 and K5
