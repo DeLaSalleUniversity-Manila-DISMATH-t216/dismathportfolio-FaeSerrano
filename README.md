@@ -323,7 +323,7 @@ Continuation:
 No Class (Holy Week)
 
 
-# Week 2
+# Week 12
 - **GRAPH THEORY**
 - Graph - are discrete structures consisting of vertices and edges that connect these vertices.
 - A graph G = (V,E) consists of V, a nonempty set of _vertices (or nodes)_ and E, a set of edges. Each edge has either one or two vertices associated with it, called its _endpoints_. An edge is said to _connect_ its endpoints.
@@ -356,3 +356,31 @@ No Class (Holy Week)
 - can be obtained from the same graph by a sequence of elementary subdivisions
 - Elementary Subdivision - everything is planar graph
 - Kuratowski's Theorem - nonplanar if and only if it contains a subgraph homeophobic to K3,3 and K5
+ 
+
+
+#Week 13
+![Image](http://www.stoimen.com/blog/wp-content/uploads/2012/08/1.-Graph-Tree.png)
+- **GRAPH COLORING**
+    - assignment of a color to each vertex of the graph so that no two adjacent vertices are assigned the same color
+    - _Four Color Theorem_ - the chromatic number of a planar graph is no greater than four
+
+- **TREES**
+    - connected undirected graph with no simple circuits
+    - data structure that emulates a heirarchical tree structure with a set of linked notes
+    - used to construct efficient algorithms for locating an item in a set
+    - _Forest_ - multiple trees
+    - _Rooted Tree_ - a tree in which one vertex has been designated as the root and every edge
+        - leaves - nodes that do not have children
+        - ancestors - nodes on top
+        - descendants - children/grandchildren
+    - _Subtree_
+    - _M-ary tree_ - if every internal vertex has no more than m children
+        - an m-ary tree with m = 2 is called a _binary tree_
+
+- **MODELLING COMPUTATIONS**
+    - _Language and Grammars_
+        - Grammars - used to generate the words of a language and to determine whether a word is in a language
+        - Compiler - reads a program written in a source language and translate it into an equivalent program in a target language.
+        - Formal Language - automatic translation of one language to another
+            - well defined set of rules
