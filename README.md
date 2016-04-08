@@ -383,12 +383,24 @@ No Class (Holy Week)
       - Compiler - reads a program written in a source language and translate it into an equivalent program in a target language.
        - Formal Language - automatic translation of one language to another
           - well defined set of rules
+  - Automata Theory
+    - studies the law of computation
+    - Finite Automata - simplest model of automata
+      - initial state
+      - final/acceptance state
+      - dead/stuck state
+      - transition
   - Finite-State Machines with Output: M = (S, I, O, f, g, s0)
     -  consists of a finite set S of states, a finite input alphabet I, a finite output alphabet O, a transition function f that assigns to each state and input pair a new state, an output function g that assigns to each state and input pair an output, and an initial state s0.
-  -  Finite-State Machines with Output
+    -  examples:
+
+![Image](vending m.png)
+
+
+![Image](1.png)
   -  Finite-State Machines with No Output
     - A finite-state automaton M = (S, I, f, s0, F ) consists of a finite set S of states, a finite input alphabet I, a transition function f that assigns a next state to every pair of state and input (so that f : S × I → S), an initial or start state s0, and a subset F of S consisting of final (or accepting states).
-  
+    - A string x is said to be recognized or accepted by the machine M = (S, I, f, s0, F ) if it takes the initial state s0 to a final state, that is, f(s0,x) is a state in F. The language recognized or accepted by the machine M, denoted by L(M), is the set of all strings that are recognized by M. Two finite-state automata are called equivalent if they recognize the same language.
   -  Turing Machines
     - A Turing machine T =(S,I,f,s0)consists of a finite set S of states, an alphabet I containing the blank symbol B, a partial function f from S × I to S × I × {R, L}, and a starting state s0.
  
