@@ -362,25 +362,33 @@ No Class (Holy Week)
 #Week 13
 ![Image](http://www.stoimen.com/blog/wp-content/uploads/2012/08/1.-Graph-Tree.png)
 - **GRAPH COLORING**
-    - assignment of a color to each vertex of the graph so that no two adjacent vertices are assigned the same color
-    - _Four Color Theorem_ - the chromatic number of a planar graph is no greater than four
+  - assignment of a color to each vertex of the graph so that no two adjacent vertices are assigned the same color
+  - _Four Color Theorem_ - the chromatic number of a planar graph is no greater than four
 
 - **TREES**
-    - connected undirected graph with no simple circuits
-    - data structure that emulates a heirarchical tree structure with a set of linked notes
-    - used to construct efficient algorithms for locating an item in a set
-    - _Forest_ - multiple trees
-    - _Rooted Tree_ - a tree in which one vertex has been designated as the root and every edge
-        - leaves - nodes that do not have children
-        - ancestors - nodes on top
-        - descendants - children/grandchildren
-    - _Subtree_
-    - _M-ary tree_ - if every internal vertex has no more than m children
-        - an m-ary tree with m = 2 is called a _binary tree_
+  - connected undirected graph with no simple circuits
+  - data structure that emulates a heirarchical tree structure with a set of linked notes
+  - used to construct efficient algorithms for locating an item in a set
+  - Forest - multiple trees
+  - Rooted Tree - a tree in which one vertex has been designated as the root and every edge
+      - leaves - nodes that do not have children
+      - ancestors - nodes on top
+      - descendants - children/grandchildren
+  - M-ary tree - if every internal vertex has no more than m children
+      - an m-ary tree with m = 2 is called a _binary tree_
 
 - **MODELLING COMPUTATIONS**
-    - _Language and Grammars_
-        - Grammars - used to generate the words of a language and to determine whether a word is in a language
-        - Compiler - reads a program written in a source language and translate it into an equivalent program in a target language.
-        - Formal Language - automatic translation of one language to another
-            - well defined set of rules
+  - Language and Grammars
+      - Grammars - used to generate the words of a language and to determine whether a word is in a language
+      - Compiler - reads a program written in a source language and translate it into an equivalent program in a target language.
+       - Formal Language - automatic translation of one language to another
+          - well defined set of rules
+  - Finite-State Machines with Output: M = (S, I, O, f, g, s0)
+    -  consists of a finite set S of states, a finite input alphabet I, a finite output alphabet O, a transition function f that assigns to each state and input pair a new state, an output function g that assigns to each state and input pair an output, and an initial state s0.
+  -  Finite-State Machines with Output
+  -  Finite-State Machines with No Output
+    - A finite-state automaton M = (S, I, f, s0, F ) consists of a finite set S of states, a finite input alphabet I, a transition function f that assigns a next state to every pair of state and input (so that f : S × I → S), an initial or start state s0, and a subset F of S consisting of final (or accepting states).
+  
+  -  Turing Machines
+    - A Turing machine T =(S,I,f,s0)consists of a finite set S of states, an alphabet I containing the blank symbol B, a partial function f from S × I to S × I × {R, L}, and a starting state s0.
+ 
